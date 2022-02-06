@@ -1,0 +1,20 @@
+[
+    {
+      "name": "feedback_guid",
+      "type": "STRING",
+      "mode": "Required",
+      "description": "The guid of the feedback request"
+    },
+    {
+      "name": "req_guid",
+      "type": "STRING",
+      "mode": "Required",
+      "description": "The guid of the initial request"
+    },
+    {
+      "name": "model_feedback",
+      "type": "STRING",
+      "mode": "Required",
+      "description": "The JSON encoded response of the model"
+    }
+  ]

@@ -1,0 +1,18 @@
+{
+    "type": "record",
+    "name": "Avro",
+    "fields": [
+      {
+        "name": "feedback_guid",
+        "type": "string"
+      },
+      {
+        "name":"req_guid",
+        "type":"string"
+      },
+      {
+        "name":"model_feedback",
+        "type":"string"
+      }
+    ]
+  }
